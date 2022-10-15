@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    top: 250px;
+    width: 1000px;
+    z-index: 100;
+    background-color: #FFF;
+    padding-bottom: 80px;
+    border-radius: 3px;
+   
+
+   
+
+}
+
+.todo-container{
+    display: flex;
+}
+
+
+
+.todo-input{
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.3s linear;
+    background-color: #000;
+    color: #FFF;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+/* .todo-input:hover,.todo-input:focus{
+    box-shadow: inset 0 0 12px 12px white, inset 0 0 3px 2px white;
+} */
+
+#dropdown{
+    background-color: #000;
+    color: #FFF;
+}
+
+
+
+.todo-input:focus{
+    background: linear-gradient(-45deg, #fffffe 0%, #0c0c0cfe 100% );
+}
+.todo-add{
+    cursor: pointer;
+    position: relative;
+    right: 42px;
+    top:7px;
+    width: 35px;
+    height: 35px;
+    
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    background-color:coral;
+    color:#FFF;
+    transition: all 0.5s linear;
+}
+.todo-add:hover{
+    box-shadow: inset 0 0 12px 12px #FFF, inset 0 0 3px 2px #FFF;
+    transform: rotate(-180deg);
+    color: coral;
+}
+
+.header{
+    width: 100%;
+    height:500px;
+    position: absolute;
+    z-index: -100;
+    background:linear-gradient(to right,  rgba(129, 47, 109, 0.73),#4d5ecc89,rgba(209, 213, 213, 0.642)), url('https://external-preview.redd.it/ID23jCqTvxsBZfgKb2eJJ2wFVYm224NCgFA2MWDAfb8.jpg?auto=webp&s=a07c8c3ec58a6b42a802a8c02deb436419639e67') no-repeat;
+    background-position:top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.footer-background{
+    width: 100%;
+    height: 580px;
+    position: absolute;
+    top: 500px;
+    z-index: -100;
+    background-color: #181824;
+}

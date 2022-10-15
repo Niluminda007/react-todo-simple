@@ -1,0 +1,22 @@
+#dropdown{
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    transition: all 0.3s linear;
+
+    
+}
+#dropdown:focus{
+    color: #F7F5F2;
+    background: linear-gradient(to right,#06283D,#256D85,#47B5FF);
+    /* background-color: #06283D; */
+}
+.dropdown-item{
+    color: black;
+    background: linear-gradient(to right,#06283D,#256D85,#47B5FF);
+}
